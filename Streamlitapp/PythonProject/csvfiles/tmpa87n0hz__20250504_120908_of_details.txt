@@ -1,0 +1,10 @@
+Input:C:\Users\HP\AppData\Local\Temp\tmpa87n0hz_.mp4
+Input full path:C:\Users\HP\AppData\Local\Temp\tmpa87n0hz_.mp4
+Camera parameters:1985.42,1985.42,720,1366
+Output csv:tmpa87n0hz__20250504_120908.csv
+Gaze: 0
+AUs: 1
+Landmarks 2D: 0
+Landmarks 3D: 0
+Pose: 0
+Shape parameters: 0

@@ -1,0 +1,10 @@
+streamlit
+joblib
+torch
+torchaudio
+transformers
+opencv-python
+tensorflow
+Pillow
+scikit-learn
+librosa

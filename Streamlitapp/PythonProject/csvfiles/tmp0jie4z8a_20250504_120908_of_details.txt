@@ -1,0 +1,10 @@
+Input:C:\Users\HP\AppData\Local\Temp\tmp0jie4z8a.mp4
+Input full path:C:\Users\HP\AppData\Local\Temp\tmp0jie4z8a.mp4
+Camera parameters:1985.42,1985.42,720,1366
+Output csv:tmp0jie4z8a_20250504_120908.csv
+Gaze: 0
+AUs: 1
+Landmarks 2D: 0
+Landmarks 3D: 0
+Pose: 0
+Shape parameters: 0

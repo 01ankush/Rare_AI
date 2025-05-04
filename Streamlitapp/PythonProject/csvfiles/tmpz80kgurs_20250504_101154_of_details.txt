@@ -1,0 +1,10 @@
+Input:C:\Users\HP\AppData\Local\Temp\tmpz80kgurs.mp4
+Input full path:C:\Users\HP\AppData\Local\Temp\tmpz80kgurs.mp4
+Camera parameters:1985.42,1985.42,720,1366
+Output csv:tmpz80kgurs_20250504_101154.csv
+Gaze: 0
+AUs: 1
+Landmarks 2D: 0
+Landmarks 3D: 0
+Pose: 0
+Shape parameters: 0
