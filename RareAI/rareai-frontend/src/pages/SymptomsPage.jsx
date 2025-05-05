@@ -14,7 +14,7 @@ function SymptomsPage() {
     setTimeout(() => {
       console.log("Submitted symptoms:", symptoms);
       setIsSubmitting(false);
-      navigate("/results"); // Navigate to results page after submission
+      navigate("/results", { replace: true }); // Add replace: true
     }, 1500);
   };
 
@@ -24,7 +24,7 @@ function SymptomsPage() {
       <nav className="bg-orange-500 text-white px-4 py-4 shadow-md">
         <div className="max-w-4xl mx-auto flex items-center justify-between">
           <button 
-            onClick={() => navigate(-1)}
+            onClick={() => navigate('/')}
             className="text-white hover:text-gray-200 transition-colors"
           >
             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -47,7 +47,7 @@ function SymptomsPage() {
               Please describe your symptoms in detail to help with your assessment.
             </p>
             
-            <form onSubmit={() => navigate("/results")}>
+            <form onSubmit={handleSubmit}> {/* Fixed: Use handleSubmit */}
               <div className="mb-6">
                 <textarea
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500 transition-colors"
