@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate  } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import VideoUpload from "./pages/VideoUpload";
 import VoiceUpload from "./pages/VoiceUpload";
@@ -15,6 +15,7 @@ function App() {
         <Route path="/voiceupload" element={<VoiceUpload />} />
         <Route path="/symptoms" element={<SymptomsPage />} />
         <Route path="/results" element={<ResultsPage />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </Router>
   );
